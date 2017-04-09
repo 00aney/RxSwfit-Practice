@@ -73,3 +73,25 @@ fastlane/test_output
 # End of https://www.gitignore.io/api/swift
 
 .gitigrnoe
+
+*.png
+
+*.png
+
+*.png
+
+01/Combinestagram/Assets.xcassets/AppIcon.appiconset/Icon-60@2x.png
+
+01/Combinestagram/Assets.xcassets/AppIcon.appiconset/Icon-60@3x.png
+
+01/Combinestagram/Assets.xcassets/AppIcon.appiconset/Icon-Small@2x.png
+
+01/Combinestagram/Assets.xcassets/AppIcon.appiconset/Icon-Small@3x.png
+
+01/Combinestagram/Assets.xcassets/AppIcon.appiconset/Icon-Spotlight-40.png
+
+01/Combinestagram/Assets.xcassets/AppIcon.appiconset/Icon-Spotlight-40@2x.png
+
+01/Combinestagram/Assets.xcassets/AppIcon.appiconset/Icon-Spotlight-40@3x.png
+
+01/Combinestagram/Assets.xcassets/IMG_1907.imageset/IMG_1907.jpg
