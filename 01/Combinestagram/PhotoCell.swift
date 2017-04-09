@@ -23,15 +23,25 @@
 import UIKit
 
 class PhotoCell: UICollectionViewCell {
-
-  @IBOutlet var imageView: UIImageView!
+  
+  // MARK: Properties
+  
   var representedAssetIdentifier: String!
-
+  
+  
+  // MARK: UI
+  
+  @IBOutlet var imageView: UIImageView!
+  
   override func prepareForReuse() {
     super.prepareForReuse()
     imageView.image = nil
   }
-
+  
+  
+  // MARK: Functions
+  
+  /// 셀 클릭 시 보여주는 효과
   func flash() {
     imageView.alpha = 0
     setNeedsDisplay()
@@ -39,4 +49,5 @@ class PhotoCell: UICollectionViewCell {
       self?.imageView.alpha = 1
     })
   }
+  
 }

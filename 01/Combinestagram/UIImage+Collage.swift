@@ -25,6 +25,9 @@ import UIKit
 
 extension UIImage {
 
+  /// make collage
+  /// - Parameter images: 한 컬럼에 2개의 이미지
+  /// - Parameter size: 이미지 크기
   static func collage(images: [UIImage], size: CGSize) -> UIImage {
     let rows = images.count < 3 ? 1 : 2
     let columns = Int(round(Double(images.count) / Double(rows)))
