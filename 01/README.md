@@ -14,4 +14,6 @@ TODO
 
 LICENSE
 -------
+<b>Right</b>
+
 All rights property of raywenderlich.com/Razeware LLC.
