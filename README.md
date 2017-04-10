@@ -1,2 +1,2 @@
-# RxSwfit-Practice
+# RxSwift-Practice
 My RxSwift Study
